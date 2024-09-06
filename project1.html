@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="project1.css">
+</head>
+
+<body>
+    <header class="header">
+        
+            <img src="C:\Users\arsha\Downloads\download.jpeg"
+                alt="Brand logo">
+            <span class="brand-logo-name">
+                TEC COLLEGE
+            </span>
+        
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                    <i class="fas fa-home"></i>
+                    <a class="navbar-link home-link" href="#">
+                        Home</a>
+                </li>
+                <li>
+                    <i class="fas fa-user"></i>
+                    <a class="navbar-link about-link" href="#about-us-section">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <a class="navbar-link contact-link" href="#contact-form">
+                        Contact Us
+                    </a>
+                </li>
+                <li>
+                    <i class="fas fa-bullhorn"></i>
+                    <a class="navbar-link service-link" href="#notice-bord-sction">
+                        Course Details
+                    </a>
+                </li>
+
+            </ul>
+            <!-- <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> -->
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="school-img-container">
+            <div class="img-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf-H0PY2hiURdDK9kvJedn-S8zHOwpsnmkHw&s"
+                    alt="school img" class="school-img">
+                <!-- <h1 class="img-title">
+                  Welcome to TEC COLLEGE
+                  </h1> -->
+            </div>
+        </div>
+
+        <section id="vision">
+            <h2 class="vision-heading">Our Vision</h2>
+            <p>Techolas Technologies Pvt. Ltd is an IT software training Institute realizing the futuristic demands of
+                the new age career trends. A team of tech aspirants br
+                came up with the idea of paving the way to a wider array of software technology and skill-building. The
+                machine era is taking up the human job talent and there's no more room for repetitive and low-skill
+                work; Knowing the reality better they together took the First ever in Kerala initiative towards a
+                futuristic software Training institute backed with a 100% Job placement Assistance. We provide advanced
+                level software training to working professionals, bachelors, masters and certified professionals. Our
+                admission team is here to assist you and design a unique individual program tailored to match your
+                career ambition.
+            </p>
+        </section>
+
+        <div class="main-notice-section" id="notice-bord-sction">
+            <div class="notice-container">
+                <div class="notice-bord">
+                    <h2 class="notice-bord-heading">
+                        PROVIDING COURSE
+                    </h2>
+                    <div>
+                        <ul>
+                            <li>COMPUTER ENGINEERING</li>
+                            <li>AUTOMOBILE ENGINEERING</li>
+                            <li>CIVIL ENGINEERING</li>
+                            <li>MECHANICAL ENGINEERING</li>
+                            <li>ELECTRICAL ENGINEERING</li>
+                            <li>ELECTRICAL & ELECTRONICS ENGINEERING</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Events Section -->
+                <div class="event-card">
+                    <h2 class="event-heading">FEE DETAILS</h2>
+                    <div class="event-details">
+                        <div class="event">
+                            <p>Each Semester Carry 20000
+                                (including
+                                uniform fee,id card fee,admission fee)
+                            </p>
+                        </div>
+                        <div class="event">
+                            <h3>FECILITIES</h3>
+                            <P>
+                                Sports(cricket,football,vallyball,bascut ball).
+                                Arts Day, Sports Day, College Day etc...
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="about-us-section">
+            <div class="about-us-container">
+                <h2 class="aboutus-heading">About Us</h2>
+                <p>
+                    A sixth form college or college of further education is an educational institution in England,
+                    Wales, Northern Ireland, Belize, the Caribbean, Malta, Norway, Brunei, and Southern Africa, among
+                    others, where students aged 16 to 19 typically study for advanced school-level qualifications, such
+                    as A-levels, BTEC, HND or its equivalent and the International Baccalaureate Diploma, or
+                    school-level qualifications such as GCSEs. In Singapore and India, this is known as a junior
+                    college. The municipal government of the city of Paris uses the phrase "sixth form college" as the
+                    English name for a lycée.[8]
+                </p>
+            </div>
+        </section>
+
+        <!-- <section class="our-school-map" id="campus-on-map">
+            <h2 class="location-heading">
+                  Find Our Location On Map
+              </h2>
+            <iframe src=
+"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47169.795533326396!2d77.38522794611738!3d28.51217402233223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce626851f7009%3A0x621185133cfd1ad1!2sGeeksforGeeks%20%7C%20Coding%20Classes!5e0!3m2!1sen!2sin!4v1712429105950!5m2!1sen!2sin"
+                    width="100%" height="450" 
+                    style="border:0;"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+        </section> -->
+
+        <body>
+            <form onsubmit="return validateForm()">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="phno">Ph No:</label>
+                <input type="number" maxlength="10" placeholder="" id="phone">
+                <label for="mailid">Email id:</label>
+                <input type="email" placeholder="" id="mailid">
+                <input type="submit" value="Submit">
+            </form>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 tec college </p>
+    </footer>
+
+    <script src="project1.js"></script>
+
+</body>
+
+</html>
